@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dina Elbry — Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- ════ NAV ════ -->
+    <nav id="nav">
+      <a href="#home" class="nav-logo"><strong>Dina</strong> Elbry</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <!-- Theme toggle -->
+        <span class="theme-icon" id="themeIcon"
+          ><i class="fa-solid fa-sun"></i
+        ></span>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Toggle dark mode"
+        ></button>
+
+        <a href="mailto:dinaelbry708@gmail.com" class="nav-cta">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ════ HERO ════ -->
+    <section style="padding: 0" id="home">
+      <div class="hero">
+        <div class="hero-bg-text">developer.</div>
+        <div class="hero-top">
+          <div>
+            <p class="hero-label">Front-End Developer &amp; .NET Learner</p>
+            <h1>Dina<br /><em>Abdellatif</em><br />Elbry.</h1>
+          </div>
+          <div class="hero-right">
+            <p class="hero-desc">
+              I build <strong>responsive, fast web experiences</strong> with
+              React &amp; Next.js — and I'm expanding into full-stack territory
+              with ASP.NET Core. Based in Cairo, Egypt.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn-fill"
+                ><i class="fa-solid fa-arrow-down"></i> See My Work</a
+              >
+              <a href="#contact" class="btn-ghost"
+                >Let's talk <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="hero-socials">
+              <a href="https://github.com/dinaelbry" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/dina-elbry-ba9300266/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://wa.me/201556663526" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a href="mailto:dinaelbry708@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bar">
+          <div class="hero-stat">
+            <strong>3.88</strong><span>CGPA — Excellent A+</span>
+          </div>
+          <div class="hero-stat">
+            <strong>10+</strong><span>Projects Built</span>
+          </div>
+          <div class="hero-stat">
+            <strong>3</strong><span>Internships</span>
+          </div>
+          <div class="hero-stat">
+            <strong>5+</strong><span>Technologies</span>
+          </div>
+          <div class="hero-stat">
+            <strong>2026</strong><span>Expected Graduation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ ABOUT ════ -->
+    <section id="about">
+      <div class="sec-header reveal">
+        <span class="sec-num">01</span>
+        <h2 class="sec-title">About <em>Me</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <span>Business Information Systems</span> student at Modern
+            Academy in Maadi — graduating 2026 with a CGPA of 3.88.
+          </p>
+          <p>
+            I specialise in crafting
+            <span>responsive, component-based</span> web applications using
+            React.js and Next.js, with a sharp eye for clean UX and performant
+            code.
+          </p>
+          <p>
+            Currently deepening my back-end skills through the
+            <span>Route Cycle 45 ASP.NET Core</span> programme — working toward
+            becoming a full-stack .NET developer.
+          </p>
+        </div>
+        <div class="about-details reveal">
+          <div class="det">
+            <span class="det-label">University</span
+            ><span class="det-val">Modern Academy in Maadi, Cairo</span>
+          </div>
+          <div class="det">
+            <span class="det-label">Degree</span
+            ><span class="det-val">B.Sc. Business Information Systems</span>
+          </div>
+          <div class="det">
+            <span class="det-label">CGPA</span
+            ><span class="det-val">3.88 — Excellent (A+)</span>
+          </div>
+          <div class="det">
+            <span class="det-label">Location</span
+            ><span class="det-val">Cairo, Egypt</span>
+          </div>
+          <div class="det">
+            <span class="det-label">Email</span
+            ><span class="det-val">dinaelbry708@gmail.com</span>
+          </div>
+          <div class="det">
+            <span class="det-label">GitHub</span
+            ><span class="det-val">github.com/dinaelbry</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ SKILLS ════ -->
+    <section id="skills" class="skills-bg">
+      <div class="sec-header reveal">
+        <span class="sec-num">02</span>
+        <h2 class="sec-title">Technical <em>Skills</em></h2>
+      </div>
+      <div class="skills-rows">
+        <div class="skill-row reveal">
+          <span class="skill-row-cat">Front-End</span>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span><span class="pill">CSS3</span
+            ><span class="pill">Bootstrap</span>
+            <span class="pill">JavaScript ES6+</span
+            ><span class="pill">React.js</span><span class="pill">Next.js</span>
+            <span class="pill">REST APIs</span
+            ><span class="pill">Responsive Design</span
+            ><span class="pill">Vite</span><span class="pill">Chart.js</span>
+          </div>
+        </div>
+        <div class="skill-row reveal">
+          <span class="skill-row-cat">Back-End</span>
+          <div class="skill-pills">
+            <span class="pill">C#</span><span class="pill">OOP</span
+            ><span class="pill">Advanced C#</span>
+            <span class="pill">.NET Framework</span>
+            <span class="pill learning"
+              >ASP.NET Core <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            <span class="pill learning"
+              >Web API <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+            <span class="pill learning"
+              >Entity Framework <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </span>
+          </div>
+        </div>
+        <div class="skill-row reveal">
+          <span class="skill-row-cat">Database</span>
+          <div class="skill-pills">
+            <span class="pill">SQL Server</span
+            ><span class="pill">Database Design</span>
+            <span class="pill">CRUD</span
+            ><span class="pill">Windows Forms</span>
+          </div>
+        </div>
+        <div class="skill-row reveal">
+          <span class="skill-row-cat">Tools</span>
+          <div class="skill-pills">
+            <span class="pill">Git</span><span class="pill">GitHub</span>
+            <span class="pill">JSON</span><span class="pill">Context API</span
+            ><span class="pill">React Router</span>
+          </div>
+        </div>
+      </div>
+      <p class="skills-note">
+        <i class="fa-solid fa-wand-magic-sparkles"></i> Currently learning —
+        Route Cycle 45, Route Academy
+      </p>
+    </section>
+
+    <!-- ════ EXPERIENCE ════ -->
+    <section id="experience">
+      <div class="sec-header reveal">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">Education &amp; <em>Experience</em></h2>
+      </div>
+      <div class="exp-grid">
+        <div class="reveal">
+          <p class="exp-col-label">Training &amp; Education</p>
+          <div class="timeline">
+            <div class="tl">
+              <span class="tl-year">2025–Now</span>
+              <div>
+                <p class="tl-title">Route Cycle 45 — Backend .NET</p>
+                <p class="tl-org">Route Academy</p>
+                <p class="tl-desc">
+                  ASP.NET Core, Web API, Entity Framework. Intensive backend
+                  programme.
+                </p>
+              </div>
+            </div>
+            <div class="tl">
+              <span class="tl-year">Aug–Sep 2025</span>
+              <div>
+                <p class="tl-title">Front-End Intern — Advanced</p>
+                <p class="tl-org">Div Academy (Offline)</p>
+                <p class="tl-desc">
+                  React.js, Next.js, AJAX, JSON. Team projects with GitHub
+                  version control.
+                </p>
+              </div>
+            </div>
+            <div class="tl">
+              <span class="tl-year">Jul–Aug 2024</span>
+              <div>
+                <p class="tl-title">Front-End Intern — Foundation</p>
+                <p class="tl-org">Div Academy (Offline)</p>
+                <p class="tl-desc">
+                  HTML, CSS, JavaScript, Bootstrap. Responsive sites and team
+                  collaboration.
+                </p>
+              </div>
+            </div>
+            <div class="tl">
+              <span class="tl-year">2022–2026</span>
+              <div>
+                <p class="tl-title">B.Sc. Business Information Systems</p>
+                <p class="tl-org">Modern Academy in Maadi, Cairo</p>
+                <p class="tl-desc">CGPA 3.88 — Excellent (A+).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal">
+          <p class="exp-col-label">Internships &amp; Courses</p>
+          <div class="timeline">
+            <div class="tl">
+              <span class="tl-year">Jul–Aug 2025</span>
+              <div>
+                <p class="tl-title">IT Internship</p>
+                <p class="tl-org">CIB — Commercial International Bank</p>
+                <p class="tl-desc">
+                  Sustainable IT solutions and AI in banking. Analysis and
+                  testing methodologies.
+                </p>
+              </div>
+            </div>
+            <div class="tl">
+              <span class="tl-year">2023–2025</span>
+              <div>
+                <p class="tl-title">OOP — C# &amp; .NET Framework</p>
+                <p class="tl-org">Self-Learning</p>
+                <p class="tl-desc">
+                  Object-Oriented Programming, Advanced C#, .NET Framework
+                  fundamentals.
+                </p>
+              </div>
+            </div>
+            <div class="tl">
+              <span class="tl-year">2023–2025</span>
+              <div>
+                <p class="tl-title">Database Design &amp; SQL Server</p>
+                <p class="tl-org">Self-Learning</p>
+                <p class="tl-desc">
+                  Relational database design, normalization, CRUD with SQL
+                  Server.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ PROJECTS ════ -->
+    <section id="projects" class="projects-bg">
+      <div class="sec-header reveal">
+        <span class="sec-num">04</span>
+        <h2 class="sec-title">Featured <em>Projects</em></h2>
+      </div>
+      <div class="proj-list reveal">
+        <div class="proj-item">
+          <div class="proj-header" onclick="toggleProj(this)">
+            <div class="proj-header-left">
+              <span class="proj-index">01</span>
+              <div>
+                <p class="proj-name">Freelance Admin Dashboard</p>
+                <p class="proj-tech">
+                  React · React Router v6 · Recharts · Vite
+                </p>
+              </div>
+            </div>
+            <div class="proj-toggle"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="proj-body">
+            <p class="proj-desc">
+              Multi-page admin panel with earnings charts (Recharts), filterable
+              projects table with status tracking, profile settings, persistent
+              sidebar, and live notification dropdown.
+            </p>
+            <div class="proj-links-row">
+              <a
+                href="https://freelance-dashboard-delta.vercel.app/"
+                target="_blank"
+                class="proj-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+              <a
+                href="https://github.com/dinaelbry/freelance-dashboard"
+                target="_blank"
+                class="proj-link outline"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-item">
+          <div class="proj-header" onclick="toggleProj(this)">
+            <div class="proj-header-left">
+              <span class="proj-index">02</span>
+              <div>
+                <p class="proj-name">Job Tracker App</p>
+                <p class="proj-tech">
+                  React · Context API · LocalStorage · CSS
+                </p>
+              </div>
+            </div>
+            <div class="proj-toggle"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="proj-body">
+            <p class="proj-desc">
+              Frontend-only app to manage your job search — live stats (total,
+              active, offers, rejected), add/edit/delete applications, search
+              &amp; filter by status, JSON export/import. Fully responsive.
+            </p>
+            <div class="proj-links-row">
+              <a
+                href="https://job-track-theta.vercel.app/"
+                target="_blank"
+                class="proj-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+              <a
+                href="https://github.com/dinaelbry/Job-track"
+                target="_blank"
+                class="proj-link outline"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-item">
+          <div class="proj-header" onclick="toggleProj(this)">
+            <div class="proj-header-left">
+              <span class="proj-index">03</span>
+              <div>
+                <p class="proj-name">Delicious Bites</p>
+                <p class="proj-tech">
+                  Next.js · SSR · SEO · Component Architecture
+                </p>
+              </div>
+            </div>
+            <div class="proj-toggle"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="proj-body">
+            <p class="proj-desc">
+              Fast, SEO-optimised web app built with Next.js, leveraging
+              server-side rendering and modular component architecture for
+              top-tier performance.
+            </p>
+            <div class="proj-links-row">
+              <a
+                href="https://delicious-bites-green.vercel.app/"
+                target="_blank"
+                class="proj-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+              <a
+                href="https://github.com/dinaelbry/delicious-bites"
+                target="_blank"
+                class="proj-link outline"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-item">
+          <div class="proj-header" onclick="toggleProj(this)">
+            <div class="proj-header-left">
+              <span class="proj-index">04</span>
+              <div>
+                <p class="proj-name">Quiz App</p>
+                <p class="proj-tech">JavaScript · Chart.js · JSON · CSS</p>
+              </div>
+            </div>
+            <div class="proj-toggle"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="proj-body">
+            <p class="proj-desc">
+              Interactive multi-language quiz with category selection,
+              randomised questions from JSON, countdown timer, animated
+              transitions, progress bar, and results chart via Chart.js.
+            </p>
+            <div class="proj-links-row">
+              <a
+                href="https://dinaelbry.github.io/Quiz-app/"
+                target="_blank"
+                class="proj-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+              <a
+                href="https://github.com/dinaelbry/Quiz-app"
+                target="_blank"
+                class="proj-link outline"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-item">
+          <div class="proj-header" onclick="toggleProj(this)">
+            <div class="proj-header-left">
+              <span class="proj-index">05</span>
+              <div>
+                <p class="proj-name">LUMERA — React Web App</p>
+                <p class="proj-tech">
+                  React.js · REST API · Hooks · Responsive
+                </p>
+              </div>
+            </div>
+            <div class="proj-toggle"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="proj-body">
+            <p class="proj-desc">
+              Responsive SPA with reusable React components, dynamic data
+              fetching from a third-party REST API, and clean state management
+              with hooks.
+            </p>
+            <div class="proj-links-row">
+              <a
+                href="https://dinaelbry.github.io/LUMERA/"
+                target="_blank"
+                class="proj-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+              <a
+                href="https://github.com/dinaelbry/LUMERA"
+                target="_blank"
+                class="proj-link outline"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-item">
+          <div class="proj-header" onclick="toggleProj(this)">
+            <div class="proj-header-left">
+              <span class="proj-index">06</span>
+              <div>
+                <p class="proj-name">University Management System</p>
+                <p class="proj-tech">C# · SQL Server · Windows Forms · OOP</p>
+              </div>
+            </div>
+            <div class="proj-toggle"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="proj-body">
+            <p class="proj-desc">
+              Desktop CRUD app with user auth, input validation, and
+              auto-generated IDs. Built with C# Windows Forms connected to a
+              structured SQL Server database using OOP principles.
+            </p>
+            <div class="proj-links-row">
+              <a
+                href="https://github.com/dinaelbry"
+                target="_blank"
+                class="proj-link outline"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ CONTACT ════ -->
+    <section id="contact">
+      <div class="sec-header reveal">
+        <span class="sec-num">05</span>
+        <h2 class="sec-title">Let's <em>Connect</em></h2>
+      </div>
+      <div class="contact-grid">
+        <p class="contact-intro">
+          Have a project in mind, or want to discuss an
+          <em>opportunity?</em> I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:dinaelbry708@gmail.com" class="c-link">
+            <i class="fa-solid fa-envelope"></i>
+            <div><strong>dinaelbry708@gmail.com</strong><span>Email</span></div>
+          </a>
+          <a href="tel:+201110766669" class="c-link">
+            <i class="fa-solid fa-phone"></i>
+            <div><strong>+20 111 076 6669</strong><span>Phone</span></div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dina-elbry-ba9300266/"
+            target="_blank"
+            class="c-link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+            <div>
+              <strong>linkedin.com/in/dina-elbry</strong><span>LinkedIn</span>
+            </div>
+          </a>
+          <a href="https://github.com/dinaelbry" target="_blank" class="c-link">
+            <i class="fa-brands fa-github"></i>
+            <div><strong>github.com/dinaelbry</strong><span>GitHub</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ FOOTER ════ -->
+    <footer>
+      <div class="f-logo"><strong>Dina</strong> Elbry</div>
+      <span class="f-copy">&copy; 2026 · Built With &hearts; By Dina Elbry</span>
+      <div class="f-socials">
+        <a href="https://github.com/dinaelbry" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/dina-elbry-ba9300266/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://wa.me/201556663526" target="_blank"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a href="mailto:dinaelbry708@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
